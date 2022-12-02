@@ -8,10 +8,15 @@ const Profile = () => {
         <div className="container__profile">
             <img className="avatar" src={img} alt="" />
             <div className="desc__author">
-                Các vở tuồng cải lương nổi tiếng và được các nghệ sĩ biểu diễn nhiều nơi như Người tình trên chiến trận,
-                Dốc sương mù. <br />
-                Ngoài ra còn Tâm sự loài chim biển, Cuốn theo chiều gió, Trần Giã Cẩm Giang…
-                <div className="name__author">Nguyên Thảo</div>
+                <i>
+                    Các vở tuồng cải lương nổi tiếng và được các nghệ sĩ biểu diễn nhiều nơi như Người tình trên chiến
+                    trận, Dốc sương mù.
+                </i>
+                <br />
+                <i>Ngoài ra còn Tâm sự loài chim biển, Cuốn theo chiều gió, Trần Giã Cẩm Giang…</i>
+                <div className="name__author">
+                    <i>Nguyên Thảo</i>
+                </div>
             </div>
             <div className="right__profile">
                 <h1>

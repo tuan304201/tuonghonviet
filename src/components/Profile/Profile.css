@@ -38,12 +38,14 @@
     padding: 36px;
     bottom: 60px;
     left: 250px;
+    font-size: italic;
 }
 
 .name__author {
     color: #ffc015;
     padding: 20px 0 10px 0;
     text-align: right;
+    font-weight: 600;
 }
 
 .infor__list {
@@ -55,6 +57,7 @@
     align-items: center;
     border-bottom: 1px solid #3e1f58;
     padding: 16px 0;
+    font-weight: 600;
 }
 
 .infor__item span {
