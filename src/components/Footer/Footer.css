@@ -1,0 +1,100 @@
+.container__footer {
+    width: 100%;
+    padding: 70px 160px 0 160px;
+    background-color: #3e1f58;
+}
+
+.container__signin {
+    background-color: #fcefc8;
+    padding: 60px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #3e1f58;
+}
+
+.left__signin h1 {
+    margin-bottom: 30px;
+}
+
+.left__signin p {
+    width: 85%;
+}
+
+.right__signin input {
+    padding: 15px 20px;
+    color: #3e1f58;
+    outline: none;
+    border: 1px solid #3e1f58;
+    background-color: #fcefc8;
+    margin-right: 16px;
+    width: 320px;
+}
+
+.right__signin input::placeholder {
+    color: #3e1f58;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.btn-signin {
+    padding: 14px 40px;
+    background-color: #3e1f58;
+    color: #fcefc8;
+    font-weight: 500;
+    font-size: 16px;
+    border: none;
+    outline: none;
+}
+
+.center__footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 0;
+    border-bottom: 1px solid #ffc015;
+}
+
+.center__footer img {
+    width: 10%;
+}
+
+.center__footer h1 {
+    color: #ffc015;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ffc015;
+}
+
+.list__item {
+    padding-top: 20px;
+    color: #fcefc8;
+}
+
+.list__item p {
+    margin: 10px 0;
+}
+
+.bottom__footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+    color: #ffc015;
+}
+
+.bottom__footer p span {
+    font-weight: 700;
+}
+
+.icon__footer svg {
+    font-size: 20px;
+    padding: 5px;
+    border: 1px solid #ffc015;
+    width: 30px;
+    height: 30px;
+}
+
+.icon__footer svg:nth-child(2),
+.icon__footer svg:nth-child(4) {
+    margin: 0 10px;
+}

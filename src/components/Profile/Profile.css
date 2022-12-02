@@ -1,0 +1,62 @@
+.container__profile {
+    width: 100%;
+    padding: 120px 0 140px 140px;
+    background-color: #fcefc8;
+    position: relative;
+    display: flex;
+}
+
+.avatar {
+    width: 40%;
+}
+
+.right__profile {
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #3e1f58;
+    margin-left: 140px;
+}
+
+.right__profile h1 {
+    font-size: 56px;
+    margin-bottom: 30px;
+}
+
+.right__profile p {
+    margin-bottom: 40px;
+    text-align: justify;
+}
+
+.desc__author {
+    position: absolute;
+    width: 34%;
+    color: #fcefc8;
+    font-size: 20px;
+    background-color: #3e1f58;
+    padding: 36px;
+    bottom: 60px;
+    left: 250px;
+}
+
+.name__author {
+    color: #ffc015;
+    padding: 20px 0 10px 0;
+    text-align: right;
+}
+
+.infor__list {
+    list-style: none;
+}
+
+.infor__item {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #3e1f58;
+    padding: 16px 0;
+}
+
+.infor__item span {
+    margin-left: 16px;
+}

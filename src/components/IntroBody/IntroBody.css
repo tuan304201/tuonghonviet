@@ -1,0 +1,122 @@
+.container__introBody {
+    width: 100%;
+    padding: 160px 0 0 0;
+    background-color: #fcefc8;
+    color: #3e1f58;
+}
+
+.nth-1 {
+    text-align: justify;
+    padding: 0 250px;
+}
+
+.nth-1 h1 {
+    text-align: center;
+    font-size: 58px;
+}
+
+.nth-1 p {
+    margin: 60px 0 200px 0;
+    font-weight: 600;
+}
+
+.nth-2 {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 130px 0 160px;
+}
+
+.nth-2__left {
+    margin-right: 60px;
+    text-align: justify;
+    margin-top: 60px;
+}
+
+.nth-2__left p {
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.nth-2__right,
+.nth-2__left {
+    width: 50%;
+}
+
+.nth-2__right img {
+    width: 50%;
+}
+
+.nth-2__right img:first-child {
+}
+
+.nth-2__right img:last-child {
+    position: absolute;
+    right: 50px;
+    top: 30px;
+}
+
+.cus-img {
+    position: absolute !important;
+    width: 34% !important;
+    left: 85px;
+    top: 80% !important;
+}
+
+.nth-3 {
+    margin-top: 280px;
+}
+
+.nth-3 img {
+    width: 100%;
+}
+
+.decs__introAu {
+    position: absolute;
+    width: 30%;
+    right: 100px;
+    top: 30%;
+    z-index: 2;
+    color: #ffc015;
+}
+
+.decs__introAu h1 {
+    padding: 10px 0 20px 0;
+    border-bottom: 1px solid #ffc015;
+}
+
+.decs__introAu p {
+    padding: 20px 0;
+    text-align: justify;
+}
+
+.text-color {
+    color: #fcefc8;
+}
+
+.nth-4 {
+    padding: 50px 160px;
+}
+
+.nth4-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.list_member {
+    display: flex;
+    margin-top: 30px;
+}
+
+.card__member:nth-child(2) {
+    margin: 0 30px;
+}
+
+.card__member img {
+    width: 100%;
+}
+
+.card__member h2 {
+    margin: 30px 0 15px 0;
+}

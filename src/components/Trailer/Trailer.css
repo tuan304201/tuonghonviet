@@ -1,0 +1,78 @@
+.background__trailer {
+    width: 100%;
+    display: block;
+}
+
+.realtion {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.left__trailer {
+    position: absolute;
+    z-index: 2;
+    width: 53%;
+    top: 140px;
+    left: 14%;
+}
+
+.right__trailer {
+    position: absolute;
+    z-index: 2;
+    width: 35%;
+    bottom: 10px;
+    right: 90px;
+    text-align: justify;
+}
+
+.right__trailer p {
+    color: #fcefc8;
+    margin-bottom: 25px;
+}
+
+.right__trailer h2 {
+    margin-bottom: 30px;
+    color: #ffc015;
+}
+
+.trailer__video {
+    position: relative;
+}
+
+.play__video {
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+    color: #ffc015;
+    display: flex;
+    align-items: center;
+}
+
+.play__video svg {
+    font-size: 40px;
+    margin-right: 16px;
+}
+
+.trailer__video img {
+    width: 60%;
+}
+
+.left__trailer h1 {
+    color: #ffc015;
+    font-weight: 700;
+    font-size: 56px;
+}
+
+.text__desc {
+    color: #fcefc8;
+    margin: 40px 0;
+}

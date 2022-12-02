@@ -1,0 +1,109 @@
+.container__news {
+    width: 100%;
+    color: #3e1f58;
+    position: relative;
+}
+
+.top__news {
+    position: relative;
+}
+
+.top__news img {
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.position__news {
+    width: 50%;
+    top: -250px;
+    right: 25%;
+    position: absolute;
+    background-color: #3e1f58;
+    padding: 40px 60px 700px 60px;
+    z-index: 1;
+    height: 500px;
+    color: #ffc015;
+}
+
+.position__news img {
+    margin-top: 30px;
+    width: 100%;
+}
+
+.name__time {
+    margin: 30px 0;
+}
+
+.name__time span:first-child {
+    margin-right: 70px;
+}
+
+.desc__news {
+    margin-top: 30px;
+    color: #fcefc8;
+}
+
+.top__position {
+    border-bottom: 1px solid #ffc015;
+}
+
+.top__position h1 {
+    margin-top: 40px;
+}
+
+.bot__news {
+    position: relative;
+    background-color: #fcefc8;
+    padding: 45rem 160px 50px 160px;
+    display: flex;
+    width: 100%;
+}
+
+.left__bot {
+    width: 50%;
+    margin-right: 20px;
+}
+
+.card__news {
+    display: flex;
+    margin: 30px 0;
+}
+
+.content__news {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content__news span svg {
+    margin-right: 10px;
+}
+
+.content__news span,
+.content__news p {
+    margin: 10px 0;
+}
+
+.card__news img {
+    width: 48%;
+}
+
+.right__bot {
+    width: 50%;
+}
+
+.right__bot img {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.right__bot button {
+    float: right;
+    margin-bottom: 25px;
+}
+
+.right__bot .content__news {
+    margin: 0;
+}

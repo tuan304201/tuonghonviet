@@ -1,0 +1,14 @@
+.container__local {
+    position: absolute;
+    bottom: 27%;
+    right: 10%;
+    color: #ffc015;
+    z-index: 2;
+}
+
+.container__local p {
+    margin-top: 36px;
+    font-size: 12px;
+    text-align: right;
+    font-weight: 600;
+}

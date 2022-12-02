@@ -1,0 +1,109 @@
+.container__contactNow {
+    width: 100%;
+    background-color: #fcefc8;
+    padding: 160px;
+    color: #3e1f58;
+    display: flex;
+}
+
+.left__contactNow {
+    display: flex;
+    width: 50%;
+}
+
+.right__contactNow {
+    width: 50%;
+}
+
+.left__contactNow {
+    display: flex;
+    flex-direction: column;
+}
+
+.left__top,
+.left__top h1 {
+    margin-bottom: 30px;
+}
+
+.type__contact {
+    width: calc(50% - 20px);
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.type__contact svg {
+    font-size: 50px;
+    margin-right: 20px;
+}
+
+.type__contact p {
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.left__bottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.right__contactNow {
+    margin-left: 100px;
+}
+
+textarea {
+    resize: none;
+    width: 100%;
+    padding: 15px;
+    background-color: #fcefc8;
+    outline: none;
+    margin-top: 50px;
+}
+
+.df_form {
+    display: flex;
+    width: 100%;
+}
+
+.df_form div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.df_form div label {
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.df_form div input {
+    border: 1px solid #3e1f58;
+    outline: none;
+    padding: 15px;
+    width: 100%;
+    background-color: #fcefc8;
+}
+
+.df_form div:first-child {
+    margin-right: 20px;
+}
+
+.submit {
+    width: 100%;
+    padding: 15px;
+    color: #ffc015;
+    background-color: #3e1f58;
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.contact__map {
+    padding: 0 160px 160px 160px;
+    background-color: #fcefc8;
+}
+
+.contact__map img {
+    width: 100%;
+}

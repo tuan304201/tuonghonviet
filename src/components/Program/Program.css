@@ -1,0 +1,58 @@
+.container__program {
+    width: 100%;
+    padding: 50px 30px 210px 30px;
+    background-color: #fcefc8;
+    color: #3e1f58;
+    display: flex;
+    justify-content: space-between;
+}
+
+.center__program {
+    margin: 0 40px;
+}
+
+.center__program,
+.right__program {
+    width: 120%;
+    position: relative;
+}
+
+.center__program img,
+.right__program img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.left__program {
+    width: 120%;
+}
+
+.left__program h1 {
+    font-size: 46px;
+}
+
+.left__program p {
+    padding: 30px 0;
+    width: 80%;
+    text-align: justify;
+}
+
+.desc__program {
+    position: absolute;
+    padding: 30px 20px;
+    bottom: -40px;
+    background-color: #fcefc8;
+    width: 85%;
+}
+
+.desc__program h3 {
+    padding-bottom: 20px;
+}
+
+.desc__program p {
+    padding-bottom: 20px;
+}
+
+.right__program .desc__program {
+    bottom: -200px;
+}
