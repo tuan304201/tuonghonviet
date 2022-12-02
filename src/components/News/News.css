@@ -68,6 +68,13 @@
 .card__news {
     display: flex;
     margin: 30px 0;
+    overflow: hidden;
+    transition: all 0.3s ease-out;
+}
+
+.card__news h3:hover,
+.card__news h2:hover {
+    color: #ffc015;
 }
 
 .content__news {
@@ -92,6 +99,7 @@
 
 .right__bot {
     width: 50%;
+    transition: all 0.3s ease-out;
 }
 
 .right__bot img {
@@ -106,4 +114,25 @@
 
 .right__bot .content__news {
     margin: 0;
+}
+
+.content__bigNews {
+    padding: 10px 20px;
+}
+
+.content__bigNews h3:hover,
+.content__bigNews h2:hover {
+    color: #ffc015;
+}
+
+.content__bigNews h2 {
+    padding-bottom: 16px;
+}
+
+.content__bigNews p {
+    padding: 16px 0;
+}
+
+.right__bot div {
+    width: 100%;
 }

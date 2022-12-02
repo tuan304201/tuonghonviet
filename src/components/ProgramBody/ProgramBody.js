@@ -23,7 +23,7 @@ const ProgramBody = () => {
                 <div className="column1__bot">
                     <div className="p-r">
                         <img src={img3} alt="" />
-                        <div className="desc__program">
+                        <div className="desc__programBody">
                             <h3>LỤC VÂN TIÊN</h3>
                             <p>08/11/2022</p>
                             <p>
@@ -39,7 +39,7 @@ const ProgramBody = () => {
                 <div className="column2__top">
                     <div className="p-r">
                         <img src={img1} alt="" />
-                        <div className="desc__program">
+                        <div className="desc__programBody">
                             <h3>NGƯỜI TÌNH TRÊN CHIẾN TRẬN</h3>
                             <p>11/11/2022</p>
                             <p>
@@ -53,7 +53,7 @@ const ProgramBody = () => {
                 <div className="column2__bot">
                     <div className="p-r">
                         <img src={img4} alt="" />
-                        <div className="desc__program">
+                        <div className="desc__programBody">
                             <h3>BÊN CẦU DỆT LỤA</h3>
                             <p>09/11/2022</p>
                             <p>
@@ -68,7 +68,7 @@ const ProgramBody = () => {
                 <div className="column3__top">
                     <div className="p-r">
                         <img src={img2} alt="" />
-                        <div className="desc__program">
+                        <div className="desc__programBody">
                             <h3>MỘC QUẾ ANH DÂNG CÂY</h3>
                             <p>12/11/2022</p>
                             <p>
@@ -82,7 +82,7 @@ const ProgramBody = () => {
                 <div className="column3__bot">
                     <div className="p-r">
                         <img src={img5} alt="" />
-                        <div className="desc__program">
+                        <div className="desc__programBody">
                             <h3>KIẾP NÀO CÓ YÊU NHAU</h3>
                             <p>10/11/2022</p>
                             <p>

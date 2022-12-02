@@ -43,8 +43,16 @@
     color: #fcefc8;
     font-weight: 500;
     font-size: 16px;
-    border: none;
+    border: 1px solid transparent;
     outline: none;
+    transition: all 0.2s ease-in;
+    cursor: pointer;
+}
+
+.btn-signin:hover {
+    border: 1px solid #3e1f58;
+    background-color: transparent;
+    color: #3e1f58;
 }
 
 .center__footer {
@@ -72,6 +80,12 @@
 
 .list__item p {
     margin: 10px 0;
+    transition: all 0.2s ease-in;
+    cursor: pointer;
+}
+
+.list__item p:hover {
+    color: #ffc015;
 }
 
 .bottom__footer {

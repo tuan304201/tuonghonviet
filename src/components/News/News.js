@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./News.css";
 import Img from "../../image/_MG_2081.jpg";
 import n1 from "../../image/n1.jpg";
@@ -60,19 +61,23 @@ const News = () => {
                     </div>
                 </div>
                 <div className="right__bot">
-                    <button className="button">TẤT CẢ</button>
-                    <img src={n3} alt="" />
-                    <div className="content__news">
-                        <h2>Tường Hồn Việt được công nh c công nhận Di sản Văn Hóa Vi n Hóa Việt Nam</h2>
-                        <span>
-                            <BsCalendar4 />
-                            20/11/2022
-                        </span>
-                        <p>
-                            Di sản Văn Hóa Việt Nam Tuồng Hồn Việt được công nhận và hứa hẹn mong lại nhiều cảm xúc đến
-                            mỗi khán giả khi thưởng thức nghệ thuật truyền thống dân tộc...
-                        </p>
-                        <h3>Đọc thêm</h3>
+                    <Link className="cus-btn" to="/news">
+                        <button className="button mb">TẤT CẢ</button>
+                    </Link>
+                    <div className="big__news">
+                        <img src={n3} alt="" />
+                        <div className="content__bigNews">
+                            <h2>Tường Hồn Việt được công nhận Di sản Văn Hóa Việt Nam</h2>
+                            <span>
+                                <BsCalendar4 />
+                                20/11/2022
+                            </span>
+                            <p>
+                                Di sản Văn Hóa Việt Nam Tuồng Hồn Việt được công nhận và hứa hẹn mong lại nhiều cảm xúc
+                                đến mỗi khán giả khi thưởng thức nghệ thuật truyền thống dân tộc...
+                            </p>
+                            <h3>Đọc thêm</h3>
+                        </div>
                     </div>
                 </div>
             </div>

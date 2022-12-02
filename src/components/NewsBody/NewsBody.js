@@ -96,7 +96,7 @@ const NewsBody = () => {
                     <div className="card__newsBody">
                         <img src={tt3} alt="" />
                         <div className="content__newsBody">
-                            <h2>Tường Hồn Việt được công nh c công nhận Di sản Văn Hóa Vi n Hóa Việt Nam</h2>
+                            <h2>Tường Hồn Việt được công nhận Di sản Văn Hóa Việt Nam</h2>
                             <span>
                                 <BsCalendar4 />
                                 20/11/2022
@@ -111,7 +111,7 @@ const NewsBody = () => {
                     <div className="card__newsBody">
                         <img src={tt4} alt="" />
                         <div className="content__newsBody">
-                            <h2>Tường Hồn Việt được công nh công nhận Di sản Văn Hóa Vi n Hóa Việt Nam</h2>
+                            <h2>Tường Hồn Việt được công nhận Di sản Văn Hóa Việt Nam</h2>
                             <span>
                                 <BsCalendar4 />
                                 20/11/2022

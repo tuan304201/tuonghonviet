@@ -49,7 +49,7 @@
     margin: 0 40px;
 }
 
-.desc__program {
+.desc__programBody {
     position: absolute;
     padding: 30px 20px;
     bottom: -200px;
@@ -57,11 +57,11 @@
     width: 85%;
 }
 
-.desc__program h3 {
+.desc__programBody h3 {
     padding-bottom: 20px;
 }
 
-.desc__program p {
+.desc__programBody p {
     padding-bottom: 20px;
     text-align: justify;
 }
