@@ -2,7 +2,7 @@ import React from "react";
 import "./Header.css";
 import { FaFacebookF, FaTwitter, FaTelegramPlane, FaYoutube, FaBars } from "react-icons/fa";
 import { IoLogoWhatsapp } from "react-icons/io";
-import Logo from "../../image/Logo.png";
+import Logo from "../../image/LogoFix.png";
 import { Link } from "react-router-dom";
 
 const Header = () => {
